@@ -1,6 +1,6 @@
 #!/bin/bash
 
-POOL=ethash.unmineable.com:3333
+POOL=ethash.unmineable.com:13333
 
 WALLET=SHIB:0xb13f91835c32249e1506da1201e937d666652725
 
