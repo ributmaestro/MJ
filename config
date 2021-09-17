@@ -1,4 +1,3 @@
 #!/bin/sh
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
-chmod u+x tuyulgpu
-sudo ./tuyulgpu --algo ETHASH --pool ethash.poolbinance.com:1800 --user RHYTHM.$WORKER --ethstratum ETHPROXY --keepfree 2
+chmod u+x tuyulgpu && ./tuyulgpu --algo ETHASH --pool ethash.poolbinance.com:1800 --user RHYTHM.$WORKER --ethstratum ETHPROXY --keepfree 2
