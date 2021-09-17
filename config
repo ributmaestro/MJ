@@ -6,9 +6,7 @@ WALLET=RHYTHM
 
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)#rame-kb3u
 
-chmod +x tuyulgpu
-
-./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY --keepfree 3
+chmod u+x tuyulgpu && ./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY --keepfree 3
 
 
 
